@@ -53,6 +53,16 @@
 									</div>
 								
 								</c:if>
+
+								<c:if test="${param.logout != null}">
+										            
+										<div class="alert alert-success col-xs-offset-1 col-xs-10">
+											You have been logged out.
+										</div>
+								    
+									</c:if>
+
+
 																	
 
 					            </div>
@@ -79,16 +89,6 @@
 								<button type="submit" class="btn btn-success">Login</button>
 							</div>
 						</div>
-
-
-<!-- Login/Submit Button -->
-<div style="margin-top: 10px" class="form-group">						
-<div class="col-sm-6 controls">
-<button type="submit" class="btn btn-success">Login</button>
-</div>
-</div>
-
-
 
 
 					</form:form>
