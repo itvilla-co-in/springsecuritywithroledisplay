@@ -80,6 +80,17 @@
 							</div>
 						</div>
 
+
+<!-- Login/Submit Button -->
+<div style="margin-top: 10px" class="form-group">						
+<div class="col-sm-6 controls">
+<button type="submit" class="btn btn-success">Login</button>
+</div>
+</div>
+
+
+
+
 					</form:form>
 
 				</div>
